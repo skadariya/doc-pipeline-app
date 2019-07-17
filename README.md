@@ -78,6 +78,8 @@ commands:
 
 > Click creat to create the pipeline
 
+## Deployed Link 
+> [Deployed Link](http://cshrappipeline.us-west-2.elasticbeanstalk.com/)
 
 # Simple C# Web Server
 
