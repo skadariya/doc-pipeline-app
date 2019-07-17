@@ -3,7 +3,7 @@ Implement a working pipe line fro a C# application
 
 ## Instruction
 
-> Step A: If you machine doesn't have "donet" run the " brew cask install dotnet" in the terminal. 
+> Step A: If local machine doesn't have "donet" run the " brew cask install dotnet" in the terminal. 
 
 > Step B: Then goto "https://dotnet.microsoft.com/download" and download dotnet core. 
 
