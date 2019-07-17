@@ -3,7 +3,7 @@
   "deployments": {
   "aspNetCoreWeb": [
   {
-  "name": "cSharp_docPipeLine",
+  "name": "doc-pipeline-app",
   "parameters": {
   "appBundle": "./basic-web-app/site",
   "iisPath": "/",
