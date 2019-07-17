@@ -19,7 +19,7 @@ Implement a working pipe line fro a C# application
     "manifestVersion": 1,
     "deployments": {
         "aspNetCoreWeb": [{
-                "name": "YOURAPPNAMEHERE",
+                "name": "_Name-of-EB-Application_",
                 "parameters": {
                     "appBundle": "./site",
                     "iisPath": "/",
@@ -68,7 +68,7 @@ commands:
 > Step 11: Fill the proper pipeline settings . Input the Pipeline name and leave rest to default.
 
 > Step 12: Add source to connect to your proper github repo
-![Add source](./assests/addSource.png)
+![Add source](./assets/addSource.png)
 
 > Step 13: Skip the add build portion
 ![Skip add build](./assets/addBuild.png)
@@ -80,6 +80,27 @@ commands:
 
 ## Deployed Link 
 > [Deployed Link](http://cshrappipeline.us-west-2.elasticbeanstalk.com/)
+
+## Trouble Shoot:
+> Upload the ".yml' file to EB
+
+> Make sure '/basic-web-app/site/' contains the web.config file
+
+> contains of 'web.config' file:
+```
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - dotnet restore basic-web-app/basic-web-app.csproj
+      - dotnet build basic-web-app/basic-web-app.csproj
+      - dotnet publish basic-web-app/basic-web-app.csproj -o site
+artifacts:
+  files:
+    - deployment-app-csharp/basic-web-app/site/**/*
+    - deployment-app-csharp/basic-web-app/aws-windows-deployment-manifest.json
+```
 
 # Simple C# Web Server
 
