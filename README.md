@@ -13,6 +13,7 @@ Implement a working pipe line fro a C# application
 > Step2: If the clone repo is missing  "aws-windows-deployment-manifest.json" and "buildspec.yml" add following files:
 
 > touch aws-windows-deployment-manifest.json and add the following code:
+
 ```
 {
     "manifestVersion": 1,
@@ -31,8 +32,7 @@ Implement a working pipe line fro a C# application
 
 > touch a buildspec.yml and add the following code:
 
-```
-version: 0.2
+```version: 0.2
 
 phases:
 
