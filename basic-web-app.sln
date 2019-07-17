@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basic-web-app", "basic-web-app\basic-web-app.csproj", "{14A2964F-3077-4E8F-98FF-8939731E6B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basic-web-app-test", "basic-web-app-test\basic-web-app-test.csproj", "{05BD412E-3566-40C8-9302-1BE69770A606}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14A2964F-3077-4E8F-98FF-8939731E6B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A2964F-3077-4E8F-98FF-8939731E6B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A2964F-3077-4E8F-98FF-8939731E6B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A2964F-3077-4E8F-98FF-8939731E6B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BD412E-3566-40C8-9302-1BE69770A606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BD412E-3566-40C8-9302-1BE69770A606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BD412E-3566-40C8-9302-1BE69770A606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BD412E-3566-40C8-9302-1BE69770A606}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
