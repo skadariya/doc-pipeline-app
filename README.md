@@ -73,6 +73,24 @@ commands:
 > Step 13: Skip the add build portion
 ![Skip add build](./assets/addBuild.png)
 
+> Step 13: To add build, select AWS code build option
+![addBuild](./assets/addBuilt.png)
+
+> 13.	Build <br>
+  a.	Build provider – AWS Codebuild<br>
+  b.	Region – default <br>
+  c.	Project – Click create project <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.	Under Create a build Project <br>
+  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Project Name <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select managed image <br>
+  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select Operating system <br>
+  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runtime – Standard <br>
+  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Image – Select Standard 2.0 <br>
+  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Image version – Select Always use the latest image for this runtime version <br>
+  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select new service role <br>
+  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buildspec - insert build command - `dotnet test && dotnet build` <br>
+  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click continue to code pipeline <br>
+
 > Step 14: Add deploy information
 ![addDeploy](./assets/addDeploy.png)
 
